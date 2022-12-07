@@ -1,0 +1,1169 @@
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive25.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+ssh: connect to host hive26.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive26.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (15202495 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (337802 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+ssh: connect to host hive26.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive26.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (229679543 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (339636 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_json_to_h5.py", line 50, in <module>
+    cur[loc] = json.load(reader)#, object_hook=hook)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Users/ethanguo/miniconda3/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/ethanguo/miniconda3/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 206091925 (char 206091924)
+ssh: connect to host hive22.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive22.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (3473895 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (125324 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (3293326 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (179032 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (5851208 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (67986 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (1274624 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (69800 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+ssh: connect to host hive21.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive21.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (61721425 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (285964 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (2854368 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (499771 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (44972416 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (336320 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+ssh: connect to host hive21.cs.berkeley.edu port 22: Operation timed out
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive21.cs.berkeley.edu port 22: Operation timed out
+/usr/bin/scp: Connection closed
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+MovieWriter ffmpeg unavailable; using Pillow instead.
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2298, in save
+    format = EXTENSION[ext]
+KeyError: '.mp4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 131, in process
+    ani.save(os.path.join(root_anim, f'{date}_{loc}_{interval}.mp4'))
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 1093, in save
+    writer.grab_frame(**savefig_kwargs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/contextlib.py", line 126, in __exit__
+    next(self.gen)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 236, in saving
+    self.finish()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/matplotlib/animation.py", line 512, in finish
+    self._frames[0].save(
+  File "/Users/ethanguo/miniconda3/lib/python3.9/site-packages/PIL/Image.py", line 2300, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: .mp4
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ethanguo/chargepoint/data/chargepoint_create_videos.py", line 135, in <module>
+    p.map(process, inputs)
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Users/ethanguo/miniconda3/lib/python3.9/multiprocessing/pool.py", line 771, in get
+    raise self._value
+ValueError: unknown file extension: .mp4
+client_loop: send disconnect: Broken pipe
+rsync: connection unexpectedly closed (355552299 bytes received so far) [receiver]
+rsync error: error in rsync protocol data stream (code 12) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+rsync: connection unexpectedly closed (1444162 bytes received so far) [generator]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [generator=2.6.9]
+ssh: connect to host hive21.cs.berkeley.edu port 22: Undefined error: 0
+rsync: connection unexpectedly closed (0 bytes received so far) [receiver]
+rsync error: unexplained error (code 255) at /AppleInternal/Library/BuildRoots/4883e71d-37bd-11ed-b0ef-b25c5e9b9057/Library/Caches/com.apple.xbs/Sources/rsync/rsync/io.c(453) [receiver=2.6.9]
+ssh: connect to host hive21.cs.berkeley.edu port 22: Undefined error: 0
+/usr/bin/scp: Connection closed

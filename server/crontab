@@ -1,0 +1,7 @@
+*/5 * * * * /usr/bin/du -d 0 -h /home/aa/users/cs199-beg/tmp/chargers/ > 
+/home/aa/users/cs199-beg/tmp/chargers/capacity.txt
+* * * * * /usr/bin/python3 /home/aa/users/cs199-beg/tmp/chargepoint.py
+*/5 * * * * /usr/bin/python3 
+/home/aa/users/cs199-beg/tmp/chargepoint_south.py
+20 * * * * /usr/bin/python3 
+/home/aa/users/cs199-beg/tmp/chargepoint_set_latest.py

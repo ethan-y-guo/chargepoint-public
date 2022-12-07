@@ -1,0 +1,2 @@
+0 * * * * /bin/sh 
+/Users/ethanguo/chargepoint/sync/chargepoint_sync.command
