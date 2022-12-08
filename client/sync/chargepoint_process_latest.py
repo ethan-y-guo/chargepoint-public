@@ -1,15 +1,18 @@
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import config
 
 import os
 import shutil
 
 root = config.CLIENT_ROOT
-root_south = os.path.join(root, 'south')
+root_data = os.path.join(root, 'data')
+root_ring = os.path.join(root_data, 'ring')
+root_south = os.path.join(root_data, 'south')
 maxes = []
 
-for path, is_ring in [(root, True), (root_south, False)]:
+for path, is_ring in [(root_ring, True), (root_south, False)]:
     max_datetime = '20221026_0000'
     second_max_datetime = max_datetime
     for fname in os.listdir(path):
@@ -24,5 +27,5 @@ for path, is_ring in [(root, True), (root_south, False)]:
                 second_max_datetime = fname
     maxes.append(second_max_datetime)
     
-with open(os.path.join(root, f'latest.txt'), 'w') as writer:
+with open(os.path.join(root_data, f'latest.txt'), 'w') as writer:
     writer.write(f'{maxes[0]} {maxes[1]}')

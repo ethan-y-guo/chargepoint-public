@@ -16,8 +16,6 @@ with open(os.path.join(root_data, f'latest.txt'), 'r') as reader:
 to_remove = []
 
 for path, is_ring, cur_max in [(root_ring, True, maxes[0]), (root_south, False, maxes[1])]:
-    max_datetime = '20221026_0000'
-    second_max_datetime = max_datetime
     for fname in os.listdir(path):
         f = os.path.join(path, fname)
         if os.path.isdir(f) and '_' in f:

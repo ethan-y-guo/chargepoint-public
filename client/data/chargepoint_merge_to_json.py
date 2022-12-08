@@ -1,11 +1,13 @@
 import sys, os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import config
 
 import os
 import shutil
 
-root = config.CLIENT_ROOT
+root = os.path.join(config.CLIENT_ROOT, 'data')
+root_ring = os.path.join(root, 'ring')
 root_south = os.path.join(root, 'south')
 root_archive = os.path.join(root, 'archive')
 root_df = os.path.join(root, 'dataframes')
@@ -17,7 +19,7 @@ archives = []
 dates = set()
 max_date = '20221026'
 
-for path, is_ring in [(root, True), (root_south, False)]:
+for path, is_ring in [(root_ring, True), (root_south, False)]:
     for fname in os.listdir(path):
         f = os.path.join(path, fname)
         if os.path.isdir(f) and '_' in f:
@@ -71,7 +73,7 @@ for is_ring in [True, False]:
                         has_stats = True
                 
                 if not has_stats:
-                    shutil.move(path, path.replace(root if is_ring else root_south, root_trash_ring if is_ring else root_trash_south))
+                    shutil.move(path, path.replace(root_ring if is_ring else root_south, root_trash_ring if is_ring else root_trash_south))
                     print('incomplete', path)
                     continue
                             
@@ -131,6 +133,6 @@ for is_ring in [True, False]:
                 
                 writer.write(']}')
                 
-                shutil.move(path, path.replace(root if is_ring else root_south, root_trash_ring if is_ring else root_trash_south))
+                shutil.move(path, path.replace(root_ring if is_ring else root_south, root_trash_ring if is_ring else root_trash_south))
 
             writer.write(']}')

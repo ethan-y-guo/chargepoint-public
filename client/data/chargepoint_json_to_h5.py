@@ -1,3 +1,8 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import config
+
 import os
 import shutil
 import json
@@ -9,7 +14,7 @@ from tqdm import tqdm
 from collections import Counter
 import pandas as pd
 
-root = '/Users/ethanguo/chargers'
+root = os.path.join(config.CLIENT_ROOT, 'data')
 root_archive = os.path.join(root, 'archive')
 root_df = os.path.join(root, 'dataframes')
 

@@ -1,3 +1,8 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+import config
+
 import os
 import shutil
 import json
@@ -11,7 +16,7 @@ from matplotlib import animation
 from tqdm import tqdm
 import pandas as pd
 
-root = '/Users/ethanguo/chargers'
+root = os.path.join(config.CLIENT_ROOT, 'data')
 root_df = os.path.join(root, 'dataframes')
 root_anim = os.path.join(root, 'animations')
 
