@@ -6,14 +6,16 @@ import os
 import shutil
 
 root = config.SERVER_ROOT
-root_south = os.path.join(root, 'south')
+root_data = os.path.join(root, 'data')
+root_ring = os.path.join(root_data, 'ring')
+root_south = os.path.join(root_data, 'south')
 
-with open(os.path.join(root, f'../latest.txt'), 'r') as reader:
+with open(os.path.join(root_data, f'latest.txt'), 'r') as reader:
     maxes = reader.readlines()[0].split(' ')
 
 to_remove = []
 
-for path, is_ring, cur_max in [(root, True, maxes[0]), (root_south, False, maxes[1])]:
+for path, is_ring, cur_max in [(root_ring, True, maxes[0]), (root_south, False, maxes[1])]:
     max_datetime = '20221026_0000'
     second_max_datetime = max_datetime
     for fname in os.listdir(path):

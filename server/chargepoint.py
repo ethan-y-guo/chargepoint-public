@@ -8,7 +8,7 @@ from requests import session
 
 payload = config.CHARGEPOINT_CREDENTIALS
 
-root = config.SERVER_ROOT
+root = os.path.join(config.SERVER_ROOT, 'data')
 root_ring = os.path.join(root, 'ring')
 
 coulomb_tkn = None

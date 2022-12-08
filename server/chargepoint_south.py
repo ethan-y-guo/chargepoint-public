@@ -8,7 +8,7 @@ from requests import session
 
 payload = config.CHARGEPOINT_CREDENTIALS
 
-root = config.SERVER_ROOT
+root = os.path.join(config.SERVER_ROOT, 'data')
 root_south = os.path.join(root, 'south')
 
 coulomb_tkn = None
@@ -140,7 +140,7 @@ for i in range(N - 1):
 
 #plt.show()
 
-with open(fos.path.join(root_south, f'{stamp_str}/tkn.txt'), 'w') as writer:
+with open(os.path.join(root_south, f'{stamp_str}/tkn.txt'), 'w') as writer:
     writer.write(f"{coulomb_tkn} {datetime.utcfromtimestamp(int(coulomb_exp)).strftime('%Y-%m-%d %H:%M:%S')}")
     
 with open(os.path.join(root_south, f'{stamp_str}/stats.txt'), 'w') as writer:

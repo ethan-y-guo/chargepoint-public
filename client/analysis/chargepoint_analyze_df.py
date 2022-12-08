@@ -1,3 +1,7 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 import os
 import shutil
 import json
@@ -16,7 +20,7 @@ import numpy as np
 
 from cutoffscale import *
 
-root = '/Users/ethanguo/chargers'
+root = config.CLIENT_ROOT
 root_df = os.path.join(root, 'dataframes')
 root_anim = os.path.join(root, 'animations')
 
@@ -451,3 +455,133 @@ def normalize(lat, lon):
 #ax.legend()
 #
 #plt.show()
+
+sample_trim = {
+    "station_list": {
+        "summaries": [{
+            "lat": 37.33341846955485,               # use to plot station
+            "lon": -122.00537029901847,             # use to plot station
+            "port_count": {
+                "total": 2,                         # use to plot graph
+                "available": 2                      # use to plot graph
+            },
+            "device_id": 186945,                    # use to track over time
+            "station_name": ["APPLE", "TA16 B3 3"] # use to categorize and track
+        }]
+    }
+}
+
+my_sample = {
+    "date": "20221026",
+    "is_ring": True,
+    "checkpoint_list": [{
+        "time": "1055",
+        "station_count": 100,
+        "chargers_available": 200,
+        "chargers_count": 250,
+        "token": {
+            "value": "abc",
+            "date": "2022-10-26",
+            "time": "10:55:00"
+        },
+        "data_list": [{
+            "section": "01_01",
+            "raw_data": sample_trim
+        }]
+    }]
+}
+
+sample = {
+    "station_list": {
+        "time": "2022-10-30 18:58:05.154",          # unnecessary, redundant
+        "watermark": 31178077215,                   # unnecessary
+        "map_data_size": 1,                         # unnecessary
+        "summaries": [{
+            "lat": 37.33341846955485,               # use to plot station
+            "lon": -122.00537029901847,             # use to plot station
+            "port_count": {
+                "total": 2,                         # use to plot graph
+                "available": 2                      # use to plot graph
+            },
+            "station_status": "available",          # unnecessary
+            "map_data": {
+                "level2": {
+                    "free": {
+                        "available": 2,             # unnecessary, redundant
+                        "in_use": 0,                # unnecessary, redundant
+                        "total": 2                  # unnecessary, redundant
+                    }
+                }
+            },
+            "device_id": 186945,                    # use to track over time
+            "payment_type": "free",                 # unnecessary
+            "tou_status": "open",                   # unnecessary
+            "can_remote_start_charge": True,        # unnecessary
+            "is_connected": True,                   # unnecessary
+            "community_mode": 0,                    # unnecessary
+            "distance": 485,                        # unnecessary
+            "bearing": 45,                          # unnecessary
+            "port_type_count": {                    # unnecessary
+                "3": 2                              # unnecessary
+            },
+            "port_status": {
+                "outlet_1": {
+                    "port_type": 3,                 # unnecessary
+                    "available_power": "5",         # unnecessary
+                    "status": "available"           # unnecessary
+                },
+                "outlet_2": {
+                    "port_type": 3,                 # unnecessary
+                    "available_power": "5",         # unnecessary
+                    "status": "available"           # unnecessary
+                }
+            },
+            "show_port_status": True,               # unnecessary
+            "station_name": ["APPLE", "TA16 B3 3"], # use to categorize and track
+            "address": {
+                "city": "Cupertino",                # unnecessary, redundant
+                "state_name": "California",         # unnecessary, redundant
+                "address1": "10700 N Tantau Ave"    # unnecessary, redundant
+            },
+            "description": "-",                     # unnecessary
+            "pricing": "pricing_free",              # unnecessary
+            "power_select": "30A",                  # unnecessary
+            "access_restriction": "NONE",           # unnecessary
+            "max_power": {
+                "unit": "kW",                       # unnecessary
+                "max": 5.0                          # unnecessary
+            },
+            "station_power_shed_status": True,      # unnecessary
+            "power_shed": {
+                "outlet_1": {
+                    "power_shed_status": True,      # unnecessary
+                    "allowed_load": 0.0             # unnecessary
+                },
+                "outlet_2": {
+                    "power_shed_status": True,      # unnecessary
+                    "allowed_load": 0.0             # unnecessary
+                }
+            }
+        }],
+        "port_type_info": {
+            "3": {
+                "connector": "J1772",               # unnecessary
+                "energy": 6.599999904632568,        # unnecessary
+                "high_power": 0.0,                  # unnecessary
+                "level": "Level 2",                 # unnecessary
+                "name": "J1772",                    # unnecessary
+                "unit": "kW"                        # unnecessary
+            }
+        },
+        "port_type_text_map": {
+            "3": "J1772 - 6.6kw"                    # unnecessary
+        },
+        "page_offset": "last_page",                 # unnecessary
+        "map_bound": {
+            "ne_lon": -122.00537019901847,          # unnecessary, redundant
+            "sw_lat": 37.33341841955485,            # unnecessary, redundant
+            "ne_lat": 37.33341851955485,            # unnecessary, redundant
+            "sw_lon": -122.00537039901846           # unnecessary, redundant
+        }
+    }
+}
