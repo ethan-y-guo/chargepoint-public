@@ -1,11 +1,15 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 import os
 import shutil
 
-with open(os.path.join('/home/aa/users/cs199-beg/tmp/', f'latest.txt'), 'r') as reader:
-    maxes = reader.readlines()[0].split(' ')
-    
-root = '/home/aa/users/cs199-beg/tmp/chargers'
+root = config.SERVER_ROOT
 root_south = os.path.join(root, 'south')
+
+with open(os.path.join(root, f'../latest.txt'), 'r') as reader:
+    maxes = reader.readlines()[0].split(' ')
 
 to_remove = []
 

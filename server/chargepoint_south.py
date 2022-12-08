@@ -1,12 +1,15 @@
-from datetime import datetime
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
 
+from datetime import datetime
 
 from requests import session
 
-payload = {
-    'user_name': 'ethanguo',
-    'user_password': '!8ss959ETHAN'
-}
+payload = config.CHARGEPOINT_CREDENTIALS
+
+root = config.SERVER_ROOT
+root_south = os.path.join(root, 'south')
 
 coulomb_tkn = None
 coulomb_exp = None
@@ -95,7 +98,7 @@ T_stn = 0
 
 import os
 
-os.mkdir(f'/home/aa/users/cs199-beg/tmp/chargers/south/{stamp_str}')
+os.mkdir(os.path.join(root_south, f'{stamp_str}'))
 
 N_rec = 6
 
@@ -126,7 +129,7 @@ def process(ne_lat, ne_lon, sw_lat, sw_lon, fname, dep=0):
     T_av += av
     T_stn += len(lat)
     
-    with open(f'/home/aa/users/cs199-beg/tmp/chargers/south/{stamp_str}/{fname}.json', 'w') as writer:
+    with open(os.path.join(root_south, f'{stamp_str}/{fname}.json'), 'w') as writer:
         writer.write(page.text)
 
 for i in range(N - 1):
@@ -137,8 +140,8 @@ for i in range(N - 1):
 
 #plt.show()
 
-with open(f'/home/aa/users/cs199-beg/tmp/chargers/south/{stamp_str}/tkn.txt', 'w') as writer:
+with open(fos.path.join(root_south, f'{stamp_str}/tkn.txt'), 'w') as writer:
     writer.write(f"{coulomb_tkn} {datetime.utcfromtimestamp(int(coulomb_exp)).strftime('%Y-%m-%d %H:%M:%S')}")
     
-with open(f'/home/aa/users/cs199-beg/tmp/chargers/south/{stamp_str}/stats.txt', 'w') as writer:
+with open(os.path.join(root_south, f'{stamp_str}/stats.txt'), 'w') as writer:
     writer.write(f'{T_stn} {T_av}/{T_cnt}')

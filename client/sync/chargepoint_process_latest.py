@@ -1,7 +1,11 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import config
+
 import os
 import shutil
 
-root = '/Users/ethanguo/chargers'
+root = config.CLIENT_ROOT
 root_south = os.path.join(root, 'south')
 maxes = []
 
